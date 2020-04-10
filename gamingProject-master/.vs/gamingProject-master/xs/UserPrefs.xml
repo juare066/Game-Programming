@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{763B5FA5-D783-D6DC-7B3A-651C3CB2BA27}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/F1Car/Sprite/endLine.cs">
+    <Files>
+      <File FileName="Assets/F1Car/Sprite/endLine.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="gamingProject-master" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="F1Car" expanded="True">
+                <Node name="Sprite" expanded="True">
+                  <Node name="endLine.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6be9d9f2-a70e-40a9-aa6a-0d3dda47138a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
