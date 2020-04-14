@@ -75,7 +75,11 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scenes\Car1_Controller.cs" />
     <Compile Include="Assets\Scenes\Menu.cs" />
+    <Compile Include="Assets\gainHealth.cs" />
+    <Compile Include="Assets\healthBarScript.cs" />
+    <Compile Include="Assets\looseHealth.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\PBR Ground Materials #1 [Dirt&amp; Grass]\Documentation.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/fernandojuarez/Desktop/gamingProject-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

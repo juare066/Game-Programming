@@ -52,7 +52,8 @@ public class endLine : MonoBehaviour
             else if (timer <= 0.0f && !doOnce)
             {
                 // display try again here ..
-
+                Destroy(GameObject.FindGameObjectWithTag("Player"));
+                Application.LoadLevel(0);
 
                 //
                 canCount = false;
