@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{E9F6A016-2E51-0BDE-BADE-0AF8BEBF4684}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Documents/GitHub/Project/Game-Programming/New Unity Project (1)/Assets/Standard Assets/2D/Scripts/CameraFollow.cs">
+    <Files>
+      <File FileName="../../../Documents/GitHub/Project/Game-Programming/New Unity Project (1)/Assets/Standard Assets/2D/Scripts/CameraFollow.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="New Unity Project (1)" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cf506776-1919-42d9-85e6-37c3895a163b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
