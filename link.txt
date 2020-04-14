@@ -1,3 +1,0 @@
-Game can be found in the following link:
-
-https://github.com/DFerre13/Game-Programming
