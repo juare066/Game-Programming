@@ -9030,7 +9030,7 @@ GameObject:
   - component: {fileID: 1593239594}
   - component: {fileID: 1593239593}
   m_Layer: 0
-  m_Name: Button
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9599,7 +9599,7 @@ GameObject:
   - component: {fileID: 1784208119}
   - component: {fileID: 1784208118}
   m_Layer: 0
-  m_Name: Text
+  m_Name: GameOverText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9753,7 +9753,7 @@ GameObject:
   - component: {fileID: 1900219409}
   - component: {fileID: 1900219408}
   m_Layer: 0
-  m_Name: Button
+  m_Name: TryAgainButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
