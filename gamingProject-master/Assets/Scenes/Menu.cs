@@ -20,13 +20,13 @@ public class Menu : MonoBehaviour
 
     void OnGUI() {
     	GUI.skin = mySkin;
-    	if(GUI.Button(new Rect(origin_x,origin_y,buttonWidth,buttonHeight), "Scene 1")) {
-    		Application.LoadLevel(1);
+    	if(GUI.Button(new Rect(origin_x,origin_y,buttonWidth,buttonHeight), "Go Back")) {
+    		Application.LoadLevel(0);
     	}
-    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight+20,buttonWidth,buttonHeight), "Scene 2")) {
+    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight+20,buttonWidth,buttonHeight), "Scene 1")) {
     		Application.LoadLevel(2);
     	}
-    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+40,buttonWidth,buttonHeight), "Scene 3")) {
+    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+40,buttonWidth,buttonHeight), "Scene 2")) {
     		Application.LoadLevel(3);
     	}
     	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*3+60,buttonWidth,buttonHeight), "Quit")) {

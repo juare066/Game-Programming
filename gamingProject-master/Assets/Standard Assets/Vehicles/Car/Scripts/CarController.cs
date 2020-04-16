@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Vehicles.Car
 {
@@ -15,6 +16,8 @@ namespace UnityStandardAssets.Vehicles.Car
         MPH,
         KPH
     }
+
+
 
     public class CarController : MonoBehaviour
     {

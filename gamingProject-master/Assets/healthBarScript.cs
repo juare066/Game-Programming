@@ -23,7 +23,7 @@ public class healthBarScript : MonoBehaviour
         if (health <= 0)
         {
             Destroy(GameObject.FindGameObjectWithTag("Player"));
-            Application.LoadLevel(0);
+            Application.LoadLevel(1);
         }
     }
 }

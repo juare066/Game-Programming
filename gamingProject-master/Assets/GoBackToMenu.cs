@@ -16,7 +16,7 @@ public class GoBackToMenu : MonoBehaviour
         GUI.skin = myskin;
         if (GUI.Button(new Rect(20, 20, 200, 100), "Menu"))
         {
-            Application.LoadLevel(0);
+            Application.LoadLevel(1);
         }
     }
 }
