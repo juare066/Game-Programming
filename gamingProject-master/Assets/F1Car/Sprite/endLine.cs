@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class endLine : MonoBehaviour
 {
@@ -53,7 +54,7 @@ public class endLine : MonoBehaviour
             {
                 // display try again here ..
                 Destroy(GameObject.FindGameObjectWithTag("Player"));
-                Application.LoadLevel(0);
+                Application.LoadLevel(1);
 
                 //
                 canCount = false;
@@ -76,6 +77,7 @@ public class endLine : MonoBehaviour
             cheering.Play();
             // stop time//
             canCount = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
             // end game //
@@ -85,7 +87,7 @@ public class endLine : MonoBehaviour
 
 
             //Destroy(this.gameObject);  // To destroy the line
-             //Destroy(obj.gameObject); // To destroy the car
+            //Destroy(obj.gameObject); // To destroy the car
         }
 
     }

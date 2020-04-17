@@ -63,8 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\8K Skybox Pack Free\Example Scenes\Script\RotateCamera.cs" />
     <Compile Include="Assets\ButtonManager.cs" />
     <Compile Include="Assets\CubeHealth.cs" />
+    <Compile Include="Assets\ExitButton.cs" />
     <Compile Include="Assets\F1Car\Sprite\endLine.cs" />
     <Compile Include="Assets\GoBackToMenu.cs" />
     <Compile Include="Assets\LooseCollider.cs" />
@@ -81,6 +83,7 @@
     <Compile Include="Assets\gainHealth.cs" />
     <Compile Include="Assets\healthBarScript.cs" />
     <Compile Include="Assets\looseHealth.cs" />
+    <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\PBR Ground Materials #1 [Dirt&amp; Grass]\Documentation.txt" />
     <Reference Include="Unity.Timeline.Editor">
