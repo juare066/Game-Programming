@@ -1,4 +1,0 @@
-I added an end line & a timer that stops when the car reaches end line.
-
-Link: 
-https://github.com/abady944/gamingProject
