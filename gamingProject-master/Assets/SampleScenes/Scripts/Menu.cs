@@ -21,16 +21,16 @@ public class Menu : MonoBehaviour
     void OnGUI() {
     	GUI.skin = mySkin;
     	if(GUI.Button(new Rect(origin_x,origin_y,buttonWidth,buttonHeight), "Go Back")) {
-    		Application.LoadLevel(1);
+    		Application.LoadLevel(0);
     	}
-    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight+15,buttonWidth,buttonHeight), "Scene 1")) {
+    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight+15,buttonWidth,buttonHeight), "Level 1")) {
+    		Application.LoadLevel(2);
+    	}
+    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+30,buttonWidth,buttonHeight), "Level 2")) {
     		Application.LoadLevel(3);
     	}
-    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+30,buttonWidth,buttonHeight), "Scene 2")) {
+		if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+95,buttonWidth,buttonHeight), "Level 3")) {
     		Application.LoadLevel(4);
-    	}
-		if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+95,buttonWidth,buttonHeight), "Scene 3")) {
-    		Application.LoadLevel(5);
     	}
     	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*3+110,buttonWidth,buttonHeight), "Quit")) {
     		#if UNITY_EDITOR
