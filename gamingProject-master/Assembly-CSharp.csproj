@@ -73,7 +73,6 @@
      <Compile Include="Assets\ExitButton.cs" />
      <Compile Include="Assets\F1Car\Sprite\endLine.cs" />
      <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\GoBackToMenu.cs" />
      <Compile Include="Assets\LooseCollider.cs" />
      <Compile Include="Assets\Pause_Menu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
@@ -89,35 +88,36 @@
      <Compile Include="Assets\gainHealth.cs" />
      <Compile Include="Assets\healthBarScript.cs" />
      <Compile Include="Assets\looseHealth.cs" />
+     <Compile Include="Assets\player.cs" />
      <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\PBR Ground Materials #1 [Dirt&amp; Grass]\Documentation.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Users/Devin/Desktop/Unity Projects/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -297,7 +297,7 @@
  <HintPath>C:/Users/Devin/Desktop/Unity Projects/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="EasyRoads3Dv3">
- <HintPath>C:/Users/Devin/Desktop/TimesUp/Game-Programming/gamingProject-master/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+ <HintPath>C:/Users/Devin/Desktop/TimesUp/BACKUP_REPO/Game-Programming/gamingProject-master/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Users/Devin/Desktop/Unity Projects/2019.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

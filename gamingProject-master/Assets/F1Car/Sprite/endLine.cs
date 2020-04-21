@@ -15,13 +15,13 @@ public class endLine : MonoBehaviour
 
     public Text winningText;
     [SerializeField] private Text uiText;
-    [SerializeField] private float mainTimer;
+    [SerializeField] public float mainTimer;
 
     Vector3 lastPos; // car last position
     public Transform car;
     float threshold = 0.1f; // minimum displacement to recognize.
 
-    private float timer;
+    public float timer;
     private bool canCount = true;
     private bool doOnce = false;
 
@@ -79,7 +79,9 @@ public class endLine : MonoBehaviour
             cheering.Play();
             // stop time//
             canCount = false;
+            timer=mainTimer;
             FindObjectOfType<GameManager>().winLevel();
+            
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
