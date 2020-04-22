@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{763B5FA5-D783-D6DC-7B3A-651C3CB2BA27}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/healthBarScript.cs">
+    <Files>
+      <File FileName="Assets/SampleScenes/Scripts/LevelReset.cs" Line="11" Column="68" />
+      <File FileName="Assets/F1Car/Sprite/endLine.cs" Line="81" Column="13" />
+      <File FileName="Assets/healthBarScript.cs" Line="25" Column="10" />
+      <File FileName="Assets/SampleScenes/Scripts/Menu.cs" />
+      <File FileName="Assets/Pause_Menu.cs" Line="15" Column="1" />
+      <File FileName="Assets/GameManager.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="gamingProject-master" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="F1Car" expanded="True">
+                <Node name="Sprite" expanded="True" />
+              </Node>
+              <Node name="SampleScenes" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Vehicles" expanded="True">
+                  <Node name="Car" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="healthBarScript.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="229c3484-dfa7-41ac-883b-8de2c887cc85" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
