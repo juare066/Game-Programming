@@ -4,30 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class healthBarScript : MonoBehaviour
+public class healthBar: MonoBehaviour
 {
-    Image HealthBar;
-    float maxHealth = 100f;
-    public static float health;
+    
+    public int maxHealth = 5;
+    public int health;
+
+    public Slider slider;
 
     // Start is called before the first frame update
-    void Start()
+    public void setMaxHealth()
     {
-        HealthBar = GetComponent<Image>();
-        health = maxHealth;
+        slider.maxValue = health;
+        slider.value = health;
     }
-
-    // Update is called once per frame
-    void Update()
+    public void setHealth(int health)
     {
-        HealthBar.fillAmount = health / maxHealth;
-        if (health <= 0)
-        {
-            Debug.Log("Player is Dead");
-            FindObjectOfType<GameManager>().loseGame();
-            //maxHealth = 100f;
-            //Destroy(GameObject.FindGameObjectWithTag("Player"));
-            //Application.LoadLevel(0);
-        }
+       slider.value = health;
+            //FindObjectOfType<GameManager>().loseGame();  
     }
 }

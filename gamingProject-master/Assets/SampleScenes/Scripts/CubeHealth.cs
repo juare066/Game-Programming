@@ -6,7 +6,7 @@ public class CubeHealth : MonoBehaviour
 {
     private void OnTriggerEnter(Collider Cube)
     {
-        healthBarScript.health -= 20f;
-        //Destroy(gameObject);
+        //FindObjectOfType<player>().TakeDamage(1);
+        Destroy(Cube);
     }
 }
