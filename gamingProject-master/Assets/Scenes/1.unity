@@ -2310,6 +2310,7 @@ GameObject:
   - component: {fileID: 671759056}
   - component: {fileID: 671759059}
   - component: {fileID: 671759058}
+  - component: {fileID: 671759057}
   m_Layer: 0
   m_Name: Car
   m_TagString: Player
@@ -2379,6 +2380,21 @@ MonoBehaviour:
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.3
   m_BrakeTorque: 20000
+--- !u!114 &671759057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671759054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfab2dea31f7d64e996335d818f661a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  currentHealth: 5
+  healthbar: {fileID: 1936585829}
 --- !u!114 &671759058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11925,6 +11941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936585827}
   - component: {fileID: 1936585828}
+  - component: {fileID: 1936585829}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -12004,6 +12021,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1936585829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936585826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc94a8891f8b441cead33b6b46f59fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  health: 5
+  slider: {fileID: 1936585828}
 --- !u!1 &1948804733
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class healthBar: MonoBehaviour
+public class HealthBar: MonoBehaviour
 {
     
     public int maxHealth = 5;
@@ -13,12 +13,12 @@ public class healthBar: MonoBehaviour
     public Slider slider;
 
     // Start is called before the first frame update
-    public void setMaxHealth()
+    public void SetMaxHealth(int health)
     {
         slider.maxValue = health;
         slider.value = health;
     }
-    public void setHealth(int health)
+    public void SetHealth(int health)
     {
        slider.value = health;
             //FindObjectOfType<GameManager>().loseGame();  

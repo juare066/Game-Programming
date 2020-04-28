@@ -6,7 +6,7 @@ public class gainHealthObject : MonoBehaviour
 {
     private void OnTriggerEnter(Collider col)
     {
-        //FindObjectOfType<player>().GainHealth(1);
+        FindObjectOfType<player>().GainHealth(1);
         Destroy (col);
     }
 }
