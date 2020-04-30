@@ -29,10 +29,14 @@ public class Menu : MonoBehaviour
     	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+30,buttonWidth,buttonHeight), "Level 2")) {
     		Application.LoadLevel(3);
     	}
-		if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*2+95,buttonWidth,buttonHeight), "Level 3")) {
+		if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*3+45,buttonWidth,buttonHeight), "Level 3")) {
     		Application.LoadLevel(4);
     	}
-    	if(GUI.Button(new Rect(origin_x,origin_y+buttonHeight*3+110,buttonWidth,buttonHeight), "Quit")) {
+        if (GUI.Button(new Rect(origin_x, origin_y + buttonHeight * 4 + 60, buttonWidth, buttonHeight), "Level 4"))
+        {
+            Application.LoadLevel(4);
+        }
+        if (GUI.Button(new Rect(origin_x,origin_y+buttonHeight*5+75,buttonWidth,buttonHeight), "Quit")) {
     		#if UNITY_EDITOR
     			UnityEditor.EditorApplication.isPlaying = false;
     		#else
