@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{763B5FA5-D783-D6DC-7B3A-651C3CB2BA27}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/healthBarScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SampleScenes/Scripts/healthBar.cs">
     <Files>
-      <File FileName="Assets/SampleScenes/Scripts/LevelReset.cs" Line="11" Column="68" />
-      <File FileName="Assets/F1Car/Sprite/endLine.cs" Line="81" Column="13" />
-      <File FileName="Assets/healthBarScript.cs" Line="25" Column="10" />
-      <File FileName="Assets/SampleScenes/Scripts/Menu.cs" />
-      <File FileName="Assets/Pause_Menu.cs" Line="15" Column="1" />
-      <File FileName="Assets/GameManager.cs" />
+      <File FileName="Assets/SampleScenes/Scripts/player.cs" Line="8" Column="30" />
+      <File FileName="Assets/SampleScenes/Scripts/gainHealth.cs" />
+      <File FileName="Assets/SampleScenes/Scripts/loseHealth.cs" />
+      <File FileName="Assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs" Line="1" Column="1" />
+      <File FileName="Assets/SampleScenes/Scripts/healthBar.cs" Line="26" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,16 +16,20 @@
                 <Node name="Sprite" expanded="True" />
               </Node>
               <Node name="SampleScenes" expanded="True">
-                <Node name="Scripts" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="healthBar.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Standard Assets" expanded="True">
+                <Node name="ParticleSystems" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
                 <Node name="Vehicles" expanded="True">
                   <Node name="Car" expanded="True">
                     <Node name="Scripts" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="healthBarScript.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -35,7 +38,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="229c3484-dfa7-41ac-883b-8de2c887cc85" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6edd6af9-2440-4ca9-8b9d-de5fccab48c1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

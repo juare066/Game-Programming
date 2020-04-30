@@ -1,12 +1,12 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class HealthBar: MonoBehaviour
+public class healthBar : MonoBehaviour
 {
-    
+
     public int maxHealth = 5;
     public int health;
 
@@ -20,7 +20,7 @@ public class HealthBar: MonoBehaviour
     }
     public void SetHealth(int health)
     {
-       slider.value = health;
-            //FindObjectOfType<GameManager>().loseGame();  
+        slider.value = health;
+        //FindObjectOfType<GameManager>().loseGame();  
     }
 }

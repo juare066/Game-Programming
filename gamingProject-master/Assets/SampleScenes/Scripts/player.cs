@@ -6,7 +6,7 @@ public class player : MonoBehaviour
 {
     public int maxHealth = 5;
     public int currentHealth;
-    public HealthBar healthbar;
+    public healthBar healthbar;
     // Start is called before the first frame update
     void Start()
     {
