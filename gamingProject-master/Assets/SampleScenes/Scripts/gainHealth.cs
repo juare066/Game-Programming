@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gainHealthObject : MonoBehaviour
+public class gainHealth : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider col)
+    private void OnTriggerEnter(Collider other)
     {
         FindObjectOfType<player>().GainHealth(1);
-        Destroy (col);
+        Destroy (gameObject);
     }
 }
