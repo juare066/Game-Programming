@@ -7,6 +7,7 @@ public class gainHealth : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         FindObjectOfType<player>().GainHealth(1);
+        ScoreScript.scoreValue += 20;
         Destroy (gameObject);
     }
 }
