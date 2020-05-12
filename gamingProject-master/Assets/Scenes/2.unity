@@ -11458,9 +11458,9 @@ MonoBehaviour:
   explosion: {fileID: 100000, guid: dbd33ca8053b5cb4790c6766343d4fb9, type: 3}
   clapping: {fileID: 623332873}
   winningText: {fileID: 0}
-  uiText: {fileID: 0}
+  uiText: {fileID: 1806221786}
   mainTimer: 30
-  car: {fileID: 0}
+  car: {fileID: 831244054}
 --- !u!54 &353609524
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20664,6 +20664,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a89ba6372427844b88f6f8cfdd51f8, type: 3}
+--- !u!114 &1806221786 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7646459258059885471, guid: e1a89ba6372427844b88f6f8cfdd51f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1806221785}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1806221787 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7646459258059885470, guid: e1a89ba6372427844b88f6f8cfdd51f8,
