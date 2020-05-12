@@ -12091,7 +12091,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fe3f5c14a2beb1744a9f47b7cb7fceb3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22724,7 +22724,6 @@ MonoBehaviour:
   target: {fileID: 1936659549}
   explosion: {fileID: 100000, guid: dbd33ca8053b5cb4790c6766343d4fb9, type: 3}
   clapping: {fileID: 429231012}
-  cheering: {fileID: 473820629}
   winningText: {fileID: 0}
   uiText: {fileID: 1852667290}
   mainTimer: 60
