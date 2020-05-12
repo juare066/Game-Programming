@@ -11,7 +11,7 @@ public class endLine : MonoBehaviour
     public GameObject explosion;
 
     public AudioSource clapping; // sound to be played when winning
-    //public AudioSource cheering; // sound to be played when winning
+   //public AudioSource cheering; // sound to be played when winning
 
     public Text winningText;
     [SerializeField] private Text uiText;
@@ -29,7 +29,7 @@ public class endLine : MonoBehaviour
     {
         timer = mainTimer;
         clapping.GetComponents<AudioSource>();
-      //  cheering.GetComponents<AudioSource>();
+        //cheering.GetComponents<AudioSource>();
 
 
         lastPos = car.position;
@@ -76,7 +76,7 @@ public class endLine : MonoBehaviour
         {
             // play sound
             clapping.Play();
-           // cheering.Play();
+            //cheering.Play();
             // stop time//
             canCount = false;
             FindObjectOfType<GameManager>().winLevel();
