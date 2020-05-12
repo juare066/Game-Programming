@@ -53,8 +53,10 @@ public class endLine : MonoBehaviour
             else if (timer <= 0.0f && !doOnce)
             {
                 // display try again here ..
-                Destroy(GameObject.FindGameObjectWithTag("Player"));
-                Application.LoadLevel(1);
+                //Destroy(GameObject.FindGameObjectWithTag("Player"));
+                FindObjectOfType<GameManager>().loseGame();
+                
+                //Application.LoadLevel(1);
 
                 //
                 canCount = false;
@@ -77,7 +79,8 @@ public class endLine : MonoBehaviour
             cheering.Play();
             // stop time//
             canCount = false;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            FindObjectOfType<GameManager>().winLevel();
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
             // end game //
