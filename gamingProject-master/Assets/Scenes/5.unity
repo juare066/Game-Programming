@@ -9391,7 +9391,7 @@ MonoBehaviour:
   clapping: {fileID: 1211502256}
   winningText: {fileID: 0}
   uiText: {fileID: 2135863017}
-  mainTimer: 70
+  mainTimer: 180
   car: {fileID: 828927216}
 --- !u!54 &884011063
 Rigidbody:
